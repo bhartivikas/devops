@@ -12,3 +12,4 @@ resource "aws_instance" "jenkins_server" {
   tags = {
     Name = "var.tag_name"
   }
+}
